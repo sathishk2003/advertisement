@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Product</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>.cloths</h2>
+      <nav>
+        <ul>
+          <li>Dashboard</li>
+          <li>Upload Products</li>
+          <li>Orders</li>
+          <li>Delivery Tracking</li>
+          <li>Stocks</li>
+          <li>Expense</li>
+          <li>Reviews & Ratings</li>
+          <li class="active">Advertisement</li>
+        </ul>
+      </nav>
+      <div class="logout">Log Out</div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <input type="text" placeholder="Search....." />
+        <div class="user-info">
+          <span class="name">Joseph</span>
+          <span class="role">Admin</span>
+        </div>
+      </header>
+
+      <section class="form-section">
+        <h3>Product No. : 01</h3>
+        <div class="form-grid">
+          <div class="form-group">
+            <label>Product Category</label>
+            <select>
+              <option>Mens</option>
+              <option>Womens</option>
+              <option>Kids</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Product Images</label>
+            <button class="upload-btn">Upload Image</button>
+          </div>
+        </div>
+
+        <div class="form-group full">
+          <label>Heading</label>
+          <input type="text" value="Relaxed Fit Hoodie" />
+        </div>
+
+        <div class="form-group full">
+          <label>Content</label>
+          <textarea rows="4">Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit...</textarea>
+        </div>
+
+        <div class="actions">
+          <button class="discard">Discard</button>
+          <button class="upload">Upload</button>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
